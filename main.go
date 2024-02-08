@@ -77,7 +77,7 @@ func main() {
 	// --- export to CSV ---
 
 	// open the output CSV file
-	csvFile, csvErr := os.Create("Instagram .csv")
+	csvFile, csvErr := os.Create("Instagram.csv")
 	// if the file creation fails
 	if csvErr != nil {
 		log.Fatalln("Failed to create the output CSV file", csvErr)
